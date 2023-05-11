@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'home_page.dart';
+// import 'home_page.dart';
+import 'login_page.dart';
 
 class IntroPage extends StatelessWidget {
   const IntroPage({Key? key}) : super(key: key);
@@ -45,7 +46,7 @@ class IntroPage extends StatelessWidget {
               context,
               MaterialPageRoute(
                 builder: (context) {
-                  return const HomePage(); //alterar para a página de login
+                  return const LoginPage(); //alterar para a página de login
                 },
               ),
             ),
