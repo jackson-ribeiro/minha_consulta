@@ -11,6 +11,11 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  // controllers dos campos de texto
+
+  // final _emailController = TextEditingController();
+  // final _senhaController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,6 +51,7 @@ class _LoginPageState extends State<LoginPage> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                   child: Container(
+                    // controller: _emailController,
                     decoration: BoxDecoration(
                       color: Colors.grey[300],
                       border: Border.all(color: Colors.white),
@@ -67,6 +73,7 @@ class _LoginPageState extends State<LoginPage> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                   child: Container(
+                    // controller: _senhaController,
                     decoration: BoxDecoration(
                       color: Colors.grey[300],
                       border: Border.all(color: Colors.white),
