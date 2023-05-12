@@ -22,7 +22,7 @@ class IntroPage extends StatelessWidget {
             child: Text(
               "Minha Consulta",
               textAlign: TextAlign.center,
-              style: GoogleFonts.poppins(
+              style: GoogleFonts.roboto(
                 fontSize: 36,
                 fontWeight: FontWeight.bold,
               ),
@@ -40,13 +40,13 @@ class IntroPage extends StatelessWidget {
 
           const Spacer(),
 
-          //Container
+          //Container redirecionando para o login
           GestureDetector(
             onTap: () => Navigator.pushReplacement(
               context,
               MaterialPageRoute(
                 builder: (context) {
-                  return const LoginPage(); //alterar para a página de login
+                  return const LoginPage();
                 },
               ),
             ),
@@ -56,10 +56,12 @@ class IntroPage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
               ),
               padding: const EdgeInsets.all(24),
-              child: const Text("Iniciar",
-                  style: TextStyle(
-                    color: Colors.white,
-                  )),
+              child: const Text(
+                "Iniciar",
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
 

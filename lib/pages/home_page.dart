@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Text(
                         'Olá,',
-                        style: GoogleFonts.poppins(
+                        style: GoogleFonts.roboto(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
                         ),
@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
                       SizedBox(height: 2),
                       Text(
                         'Jackson Ribeiro',
-                        style: GoogleFonts.poppins(
+                        style: GoogleFonts.roboto(
                           fontWeight: FontWeight.bold,
                           fontSize: 24,
                         ),
