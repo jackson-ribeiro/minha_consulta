@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-// import 'home_page.dart';
-import 'login_page.dart';
+import 'home_page.dart';
+// import 'login_page.dart';
 
 class IntroPage extends StatelessWidget {
   const IntroPage({Key? key}) : super(key: key);
@@ -40,13 +40,13 @@ class IntroPage extends StatelessWidget {
 
           const Spacer(),
 
-          //Container redirecionando para o login
+          //Container direcionando para o login
           GestureDetector(
             onTap: () => Navigator.pushReplacement(
               context,
               MaterialPageRoute(
                 builder: (context) {
-                  return const LoginPage();
+                  return const HomePage();
                 },
               ),
             ),
